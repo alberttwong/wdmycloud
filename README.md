@@ -1,5 +1,7 @@
 # wdmycloud
 
+Following instructions at https://drive.google.com/drive/folders/0B_6OlQ_H0PxVZTBtM3EyRVhDVms
+
 ```
 root@raspberrypi:/home/pi# parted /dev/sda
 GNU Parted 3.2
