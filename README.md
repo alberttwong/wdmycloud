@@ -84,9 +84,6 @@ mdadm: array /dev/md0 started.
 root@raspberrypi:/home/pi# watch cat /proc/mdstat
 root@raspberrypi:/home/pi# mount -t ext4 /dev/sda4 /mnt
 root@raspberrypi:/home/pi# cd /mnt
-root@raspberrypi:/mnt# mv ~/.
-./             .bash_history  .cache/        .vnc/          
-../            .bashrc        .profile       
 root@raspberrypi:/mnt# mv ~pi/Downloads/original_v04.01.02-417.tar.gz .
 root@raspberrypi:/mnt# ls
 lost+found  original_v04.01.02-417.tar.gz
