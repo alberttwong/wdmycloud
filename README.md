@@ -121,6 +121,7 @@ root@raspberrypi:/mnt# mkdir /mnt/hdd
 root@raspberrypi:/mnt# mount /dev/md0 /mnt/hdd
 root@raspberrypi:/mnt# touch /mnt/hdd/etc/.fresh_install
 root@raspberrypi:/mnt# umount /mnt/hdd
-
-
+root@raspberrypi:/mnt# shutdown -H 0 
 ```
+
+After that I was able to login to the machine at http://wdmycloud.local.   When I got into the dashboard, the diagnoistics was red.  I tried to do a firmware update but got Device does not have enough space for upgrade 370002. I did a full system reset.   That took about 15 minutes.  After that, diagnotics was green and I was able to upgrade to the latest firmware and complete the rest of the setup.
