@@ -114,5 +114,13 @@ root@raspberrypi:/mnt# dd if=config.img of=/dev/sda8
 2048+0 records out
 1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.148875 s, 7.0 MB/s
 root@raspberrypi:/mnt# dd if=rootfs.img of=/dev/md0
+3999616+0 records in
+3999616+0 records out
+2047803392 bytes (2.0 GB, 1.9 GiB) copied, 401.548 s, 5.1 MB/s
+root@raspberrypi:/mnt# mkdir /mnt/hdd
+root@raspberrypi:/mnt# mount /dev/md0 /mnt/hdd
+root@raspberrypi:/mnt# touch /mnt/hdd/etc/.fresh_install
+root@raspberrypi:/mnt# umount /mnt/hdd
+
 
 ```
