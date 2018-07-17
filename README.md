@@ -1,5 +1,7 @@
 # wdmycloud
 
+Instructions for new hard drive for a wdmycloud gen 1 device.
+
 Following instructions at https://drive.google.com/drive/folders/0B_6OlQ_H0PxVZTBtM3EyRVhDVms and specifically the instructions at https://drive.google.com/open?id=0B_6OlQ_H0PxVbzZac0plbkZKeGM.  The difference is that I used my raspberrypi as my machine and as a result, my external hard drive was /dev/sda.
 
 ```
